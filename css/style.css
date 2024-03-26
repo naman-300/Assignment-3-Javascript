@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/9824651.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+h1 {
+    text-align: center;
+    font-size: 3.2em;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+}
+
+form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Kanit';
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+#studentInfo{
+    font-family: 'Montserrat';
+    color: #1E90FF;
+    text-align: center;
+}
+
+form input[type="text"],
+form select,
+form textarea
+ {
+    width: auto;
+    margin-right: 10px;
+}
+
+form input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
